@@ -1,0 +1,8 @@
+name: blank
+on:
+  push:
+jobs:
+  blank:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: randomorg123/curly-octo-waddle@main
